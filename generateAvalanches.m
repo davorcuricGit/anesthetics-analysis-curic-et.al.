@@ -4,8 +4,14 @@
 %This code generates avalanches with respect to a network. In this case the
 %network is generated from pixels within a specified radius.
 %
+%This code generates avalanches with respect to a network for a sample recording. In this case the
+%network is generated from pixels within a specified radius.
+%
 %IMPORTANT: the sample recording was too large to fit into github
-%repository. This code should work for any data in the shape [X,Y,Time].
+%repository and has been provided in a seperate Zenodo directory. 
+% Avalanches (size and durations) for all recordings with a threshold of 1 have been saved
+% seperately. Both can be found at the following: 10.5281/zenodo.12725849 (DOI)
+
 %The avalanches obtained from the recording were stored as
 %samplerecording_avalanches.mat and are used in the subsequent codes. The
 %sample recording can be provided upon reasonable request. 
