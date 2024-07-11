@@ -27,9 +27,9 @@ All other coustom functions are located in functions subdirectory
 Make sure that the code has path access to both the functions subdirectory and NCCtoolbox. Otherwise it should work as-is.
 
 3.DEMO
-The demo includes sample data from a quiet-wakefulness recording. The recording is sampled at 50Hz and has been filtered to be between 0.1-15hz.
+The demo includes code to derive avalanches from a quiet-wakefulness recording. IMPORTANT: Due to file size limitations, the recording is hosted seperately at the following Zenodo repository: 10.5281/zenodo.12725849 (DOI). The Zenodo repository also included avalanches (size and duration) across all recordings for a threshold of 1 standard deviation above the mean. The recording is sampled at 50Hz and has been filtered to be between 0.1-15hz.
 The recording has already been aligned to the Allan atlas and periods of excessive movement have been removed (replaced by zeros).
-The recording is also spatially downsampled from 256x256 to 128x128 for faster runtime/reduce storage
+The recording is also spatially downsampled from 256x256 to 128x128 which is size used in the manuscript
 
 The included demo does the following:
 	a. Generates avalanches by clustering calcium activations in an extended neighbourhood (generateAvalanches.m)
